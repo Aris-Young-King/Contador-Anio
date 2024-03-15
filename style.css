@@ -1,0 +1,68 @@
+* {
+    font-family: "Pacifico", cursive;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenido-elementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 20px 10px #fff;
+    backdrop-filter: blur(10px);
+}
+
+.contenido-elementos__titulos {
+    text-align: center;
+}
+
+.contenido-elementos__titulos h1{
+    font-size: 3vw;
+}
+
+.contenido-elementos__fecha {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 100%;
+}
+
+.elementos__fechas__tiempo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 50%;
+    margin: 1rem;
+}
+
+.elementos__fechas__tiempo p:first-child {
+    font-size: clamp(1vw, 4vw, 20vw); 
+    margin: 0;
+}
+
+.elementos__fechas__tiempo p:last-child {
+    font-size: 2vw; 
+    margin-left: 10px;
+
+}
